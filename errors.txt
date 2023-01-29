@@ -2,10 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 78: invalid syntax
-                    renpy.say(a, "Monstro tirou um " + str(rolagem_dado_monstro) " possui bônus de ataque " + str(self.monstro.chance) + " total: " + str(rolagem_dado_monstro + self.monstro.chance) + " e sua armadura é: " + str(self.jogador.armadura) + ".")
-                                                                                  ^
-    
+File "game/script.rpy", line 152: textbutton expects a non-empty block.
+    textbutton "Voltar" action Hide("manobras"):
+                                                ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sat Jan 28 19:03:15 2023
+Sun Jan 29 00:11:45 2023
