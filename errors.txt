@@ -1,0 +1,11 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 78: invalid syntax
+                    renpy.say(a, "Monstro tirou um " + str(rolagem_dado_monstro) " possui bônus de ataque " + str(self.monstro.chance) + " total: " + str(rolagem_dado_monstro + self.monstro.chance) + " e sua armadura é: " + str(self.jogador.armadura) + ".")
+                                                                                  ^
+    
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Sat Jan 28 19:03:15 2023
